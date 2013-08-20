@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1 Ziped File Upload
+  form(method="post", enctype="multipart/form-data", action="/upload")
+    input(type="file", name="thumbnail")
+    input(type="submit")
+
+//- <form method="post" enctype="multipart/form-data" action="/upload">
+//-   <input type="file" name="thumbnail">
+//-   <input type="submit">
+//- </form>
