@@ -5,4 +5,7 @@ Webアプリです。zipファイルを送信すると、サーバの中で自�
 
 Node.jsのモジュールとして、ExpressとUnzipを使っています。
 
-![image](140123-unzip-node-screenshot)
+---
+起動するとWebサーバとして以下のような画面を表示します。
+
+![image](140123-unzip-node-screenshot.png)
